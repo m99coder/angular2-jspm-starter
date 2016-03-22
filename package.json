@@ -1,0 +1,14 @@
+{
+  "name": "angular2-jspm-starter",
+  "version": "1.0.0",
+  "description": "Angular 2 Starter with JSPM package manager",
+  "author": "Marco Lehmann <m99coder@gmail.com> (http://m99.io/)",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "jspm": "0.16.31",
+    "lite-server": "2.1.0",
+    "typings": "0.7.9"
+  }
+}
