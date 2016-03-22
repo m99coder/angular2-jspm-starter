@@ -4,9 +4,15 @@
   "description": "Angular 2 Starter with JSPM package manager",
   "author": "Marco Lehmann <m99coder@gmail.com> (http://m99.io/)",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "lite-server",
+    "clean": "del jspm_packages node_modules typings",
+    "typings": "typings",
+    "postinstall": "typings install && jspm install"
+  },
   "dependencies": {},
   "devDependencies": {
+    "del-cli": "0.2.0",
     "jspm": "0.16.31",
     "lite-server": "2.1.0",
     "typings": "0.7.9"
