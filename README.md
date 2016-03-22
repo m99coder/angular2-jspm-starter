@@ -6,10 +6,17 @@ Angular 2 Starter with JSPM package manager
 Install global dependencies
 
 ```bash
-$ npm install -g jspm typings typescript
+$ npm install -g jspm
 ```
 
 Install project dependencies
+
 ```bash
 $ npm install
+```
+
+Start application
+
+```bash
+$ npm start
 ```

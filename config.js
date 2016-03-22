@@ -7,8 +7,16 @@ System.config({
     "npm:*": "jspm_packages/npm/*"
   },
 
+  packages: {
+    "app": {
+      "main": "main",
+      "defaultExtension": "ts"
+    }
+  },
+
   map: {
     "angular2": "npm:angular2@2.0.0-beta.11",
+    "reflect-metadata": "npm:reflect-metadata@0.1.3",
     "typescript": "npm:typescript@1.8.9",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -259,6 +267,10 @@ System.config({
       "string_decoder": "npm:string_decoder@0.10.31"
     },
     "npm:reflect-metadata@0.1.2": {
+      "assert": "github:jspm/nodelibs-assert@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:reflect-metadata@0.1.3": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
